@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Yasser Jaziri | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Yasser Jaziri | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <div id="cursor"></div>
@@ -15,52 +16,52 @@
     <nav>
         <a href="#about">about</a>
         <a href="#projects">projects</a>
-        <a href="#skills">skills</a>
         <a href="#contact">contact</a>
     </nav>
 </header>
 
 <section id="hero">
-    <h2><span id="typing"></span></h2>
+    <div class="hero-content">
+        <div class="hero-text">
+            <h2><span id="typing"></span></h2>
+            <p>Building data-driven systems that actually solve business problems.</p>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/profile.jpg" alt="profile">
+        </div>
+    </div>
 </section>
 
 <section id="about">
     <h2>> about_me</h2>
     <p>
-        Data analyst & BI specialist. Focused on dashboards, automation, and decision systems.
+        BI & Data Analyst with strong focus on dashboards, automation pipelines, and decision systems.
+        I turn messy data into clear business insights.
     </p>
 </section>
 
 <section id="projects">
     <h2>> projects</h2>
+
     <div class="grid">
 
-        <div class="card">
-            <h3>Supplier Performance Dashboard</h3>
-            <p>Power BI dashboard analyzing supplier KPIs.</p>
-        </div>
+        <a href="projects/project1.html" class="card">
+            <h3>Supplier Dashboard</h3>
+            <p>KPI tracking, supplier ranking, anomaly detection.</p>
+        </a>
 
-        <div class="card">
+        <a href="projects/project2.html" class="card">
             <h3>Sales Trend Analysis</h3>
-            <p>Category-based trend detection and forecasting.</p>
-        </div>
+            <p>Category insights, forecasting, seasonal behavior.</p>
+        </a>
 
-        <div class="card">
+        <a href="projects/project3.html" class="card">
             <h3>Data Cleaning Tool</h3>
-            <p>Excel + automation pipeline for anomaly detection.</p>
-        </div>
+            <p>Automated validation + structured pipeline.</p>
+        </a>
 
     </div>
-</section>
-
-<section id="skills">
-    <h2>> skills</h2>
-    <ul>
-        <li>Power BI</li>
-        <li>Excel</li>
-        <li>Python</li>
-        <li>SQL</li>
-    </ul>
 </section>
 
 <section id="contact">
